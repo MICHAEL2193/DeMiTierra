@@ -725,15 +725,3 @@ No toda la información se eliminará físicamente.
 
 Esto garantiza trazabilidad y evita romper relaciones históricas.
 
-## 26. Decisiones pendientes para el modelo físico
-
-En el siguiente paso deberán definirse:
-
-* Tipos ENUM o tablas de referencia.
-* Extensión PostgreSQL para generación de UUID.
-* Sentencias `CREATE TABLE`.
-* Restricciones `CHECK`.
-* Acciones `ON DELETE`.
-* Índices concretos.
-* Migraciones con Alembic.
-* Estrategia de actualización automática de `updated_at`.
